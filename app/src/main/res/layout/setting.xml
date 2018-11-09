@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:scrollbars="none">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="10dp">
+
+		<Button
+			android:layout_width="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="程序配置式"
+			android:layout_gravity="center"
+			android:textSize="20sp"
+			android:onClick="moren"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="日期格式"
+			android:textColor="#E91E63"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"/>
+
+		<EditText
+			android:id="@+id/ed1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="日期格式"
+			android:singleLine="true"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="主颜色背景"
+			android:textColor="#E91E63"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"/>
+
+		<EditText
+			android:id="@+id/ed2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="主背景颜色"
+			android:singleLine="true"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="字体颜色"
+			android:textColor="#E91E63"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"/>
+
+		<EditText
+			android:id="@+id/ed3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="字体颜色"
+			android:singleLine="true"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="字体大小"
+			android:textColor="#E91E63"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"/>
+
+		<EditText
+			android:id="@+id/ed4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="字体大小(整数)"
+			android:singleLine="true"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="默认开启整点报时,如需关闭请关闭通知权限"
+			android:textColor="#FF9800"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"/>
+
+	</LinearLayout>
+
+</ScrollView>
+
