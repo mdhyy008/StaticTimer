@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">静态时钟</string>
+    <string name="settings_title">设置</string>
+    <string name="channel_hourly">整点报时</string>
+    <string name="chime_title">整点报时</string>
+</resources>
